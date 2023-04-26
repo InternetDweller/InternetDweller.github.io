@@ -1,0 +1,54 @@
+.header
+{
+	display: flex;
+    height: 8vh;
+    width: 100%;
+    background: #89651e;
+	align-items: center;
+}
+
+.subscribe
+{
+    display: block;
+    margin: 2.5vh 0 2.5vh 0;
+    text-align: center;
+    padding: 1vh 0 1vh 0;
+}
+
+.offers
+{
+    display: flex;
+    flex-flow: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 0 2vw 0 2vw;
+}
+
+.feedback
+{
+    display: block;
+    margin: 2.5vh 0 2.5vh 0;
+    padding: 1vh 0 1vh 0;
+    text-align: center;
+    font-size: 150%;
+}
+
+.history
+{
+    display: flex;
+    flex-flow: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    margin: 2.5vh 15vw 2.5vh 15vw;
+    align-items: center;
+}
+
+.footer
+{
+    height: 6%;
+    width: 100%;
+    color: blanchedalmond;
+    background: #634916;
+    text-align: center;
+    padding: 2vh 0 2vh 0;
+}

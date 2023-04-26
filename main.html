@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styles/stylesheet.css">
+    <link rel="stylesheet" type="text/css" href="styles/basicBlocks.css">
+    <link rel="stylesheet" type="text/css" href="styles/queries.css">
+    <link rel="stylesheet" type="text/css" href="styles/carousel.css">
+    <link rel="icon" type="image/x-icon" href="img/teaicon.png">
+    <title>Tea</title>
+</head>
+<body>
+    <div class="bigContainer">
+	
+		<div class="header">
+			<div class="logoblock" ><a href="main.html"><img class="logo" src="img/teaicon.png" /></a></div>
+            <div class="websiteTitle">Завари себе чай</div>
+            <div class="authblock"><a href="#"><img title="Авторизация" class="auth" src="img/lock.png" /></a></div>
+		</div>
+
+        <div class="carousel">
+            <div class="arrowWrapper">
+                <img src="img/arrow.png" class="left" id="leftB" style="width:100%;visibility:hidden;" onclick="toLeft()"></img>
+            </div>
+            <div class="list">
+                <ul id="list">
+                    <li><img src="img/car1.png" width="60vw" /></li>
+                    <li><img src="img/car2.png" width="60vw" /></li>
+                    <li><img src="img/car3.png" width="60vw" /></li>
+                    <li><img src="img/car4.png" width="60vw" /></li>
+                </ul>
+            </div>
+            <div class="arrowWrapper">
+                <img src="img/arrow.png" class="right" id="rightB" style="width:100%;rotate:180deg;cursor:pointer;" onclick="toRight()"></img>
+            </div>
+            <span class="doit" id="slide">ЧАЙ ДЛЯ ВСЕЙ СЕМЬИ</span>
+        </div>
+
+        <div class="subscribe">
+            <div class="sublabel">Подписка на новости сайта</div>
+            <form class="subscribeForm">
+                <div><input class="emailField" type="text" placeholder="Электронная почта" id="emailField"></input></div>
+                <div><input class="pointy emailButton" type="button" value="ПОДПИСАТЬСЯ" onclick="subscribe()"></input></div>
+            </form>
+        </div>
+
+        <div class="offers">
+            <div>
+                <img src="img/earl.jpg" style="background:white">
+                <div class="teaname">Эрл грей</div>
+                <div class="toTea">ПЕРЕЙТИ</div>
+            </div>
+            <div>
+                <img src="img/white.jpg" style="background:white">
+                <div class="teaname">Белый чай</div>
+                <div class="toTea">ПЕРЕЙТИ</div>
+            </div>
+            <div>
+                <img src="img/breakfast.jpg" style="background:white">
+                <div class="teaname">Английский завтрак</div>
+                <div class="toTea">ПЕРЕЙТИ</div>
+            </div>
+            <div>
+                <img src="img/green.jpg" style="background:white">
+                <div class="teaname">Зелёный чай</div>
+                <div class="toTea">ПЕРЕЙТИ</div>
+            </div>
+            <div>
+                <img src="img/ceylon.jpg" style="background:white">
+                <div class="teaname">Золотой цейлонский</div>
+                <div class="toTea">ПЕРЕЙТИ</div>
+            </div>
+            <div>
+                <img src="img/hibiscus.jpg" style="background:white;">
+                <div class="teaname">Каркаде</div>
+                <div class="toTea">ПЕРЕЙТИ</div>
+            </div>
+            <div>
+                <img src="img/oolong.jpg" style="background:white;">
+                <div class="teaname">Улун</div>
+                <div class="toTea">ПЕРЕЙТИ</div>
+            </div>
+        </div>
+		
+		<div class="feedback">
+			<form>
+			<div class="feedLabel">Обратная связь</div>
+            <div class="feedform">
+				<div class="feedflexer1">
+					<div><input class="contacts" type="text" placeholder="Имя" id="contactsName"></input></div>
+					<div><input class="contacts" type="text" placeholder="Электронная почта" id="contactsEmail"></input></div>
+				</div>
+				<div class="feedflexer2">
+					<div><textarea class="textarea" placeholder="Введите текст сообщения" id="contactsText"></textarea></div>
+				</div>
+            </div>
+            <div><input class="pointy feedButton" type="button" value="ОТПРАВИТЬ" onclick="feedSend()"></input></div>
+			</form>
+        </div>
+
+        <div class="history">
+            <div class="textblock">
+                <div class="histHeader" style="text-align:center">История чая</div>
+                <img id="htea" src="img/history.jpg">
+                <div>С давних времён чай был неотъемлемой частью жизни людей. Он служил не только средством утоления жажды, но и являлся неотъемлемой частью ритуалов: чаепития, застолья, банкета.</div>
+                <div>Чаепитие, как ритуал, стало неотъемлемой частью нашей жизни. В современном мире чай стал незаменимым помощником в работе и учёбе. Чай — это напиток, который помогает нам расслабиться после тяжёлого рабочего дня и набраться сил.</div>
+                <div>Учёными доказано, что чашка ароматного чая способствует укреплению нервной системы, повышает работоспособность.</div>
+                <div style="text-align:center;margin-top:0.30%;"><a href="#">Читать дальше ></a></div>
+            </div>
+        </div>
+
+        <div class="footer">
+            <div>Tea (c) 2023</div>
+        </div>
+    </div>
+
+    <script src="js/carousel.js"></script>
+    <script src="js/design.js"></script>
+</body>
+</html>

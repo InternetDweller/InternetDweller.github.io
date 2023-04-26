@@ -1,0 +1,85 @@
+@media all and (max-width: 1600px)
+{
+    #htea
+    {
+        width: 20vw;
+        padding-left: 1vw;
+    }
+}
+
+@media all and (max-width: 1200px)
+{
+    #htea
+    {
+        width: 25vw;
+        padding-left: 1vw;
+    }
+}
+
+@media all and (max-width: 960px)
+{
+    #htea
+    {
+        width: 30vw;
+        padding-left: 1vw;
+    }
+}
+
+@media all and (max-width: 760px)
+{
+    .history
+    {
+        flex-wrap: wrap;
+    }
+    #htea
+    {
+        width: 70vw;
+        padding-left: 1vw;
+    }
+    
+}
+
+@media all and (max-width: 480px)
+{
+    #htea
+    {
+        width: 90vw;
+    }
+    .arrowWrapper
+    {
+        width: 12%;
+    }
+}
+
+@media all and (max-width: 380px)
+{
+    .feedflexer1
+    {
+        flex-direction: column;
+        margin-bottom: 1.5%;
+    }
+    .contacts
+    {
+        width: 300px;
+    }
+    .textarea
+    {
+        width: 300px;
+    }
+    .subscribeForm
+    {
+        flex-direction: column;
+    }
+    .emailField
+    {
+        margin-bottom: 0.60%;
+    }
+}
+
+@media all and (max-width: 320px)
+{
+    #htea
+    {
+        width: 90vw;
+    }
+}

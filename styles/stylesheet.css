@@ -1,0 +1,239 @@
+body
+{
+    margin: 0;
+    background: beige;
+}
+
+.bigContainer
+{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.content
+{
+    flex: 1 0 auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+html, body
+{
+    height: 100%;
+}
+
+.logo
+{
+	height: 100%;
+    margin-left: 10%;
+}
+
+.logoblock
+{
+    display: block;
+    height: 90%;
+    user-select: none;
+}
+
+.auth
+{
+    height: 95%;
+}
+
+.authblock
+{
+    height: 85%;
+    user-select: none;
+}
+
+.textblock
+{
+    text-align: justify;
+    margin: 0 3% 0 3%;
+}
+
+.offers > div > img
+{
+    width: 300px;
+}
+
+.teaname
+{
+    font-size: 1.20rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.websiteTitle
+{
+	display: block;
+    width: 100%;
+    font-size: 1.5rem;
+    color: blanchedalmond; 
+    margin-left: 2vh;
+    user-select: none;
+    font-weight: bold;
+}
+
+.arrowWrapper
+{
+    width: 8%;
+}
+
+.sublabel
+{
+    display: block;
+    margin: 0.30% 0 0.60% 0;
+    font-weight: bold;
+    font-size: 150%;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px 2px black, 5px 5px 1em rgb(20, 9, 101);
+}
+
+.toTea
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: right;
+    height: 16%;
+    width: 60%;
+    padding: 0 0 0 0;
+    color: rgba(91, 235, 156, 0.8);
+    background: rgba(6, 110, 56, 0.8);
+    position: relative;
+    bottom: 21%;
+    left: 36%;
+    font-size: 150%;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    user-select: none;
+    transition: bottom ease 0.5s;
+}
+
+.toTea:hover
+{
+    color: rgba(91, 235, 156, 0.9);
+    background: rgba(6, 110, 56, 0.9);
+    cursor: pointer;
+    bottom: 25%;
+}
+
+.subscribeForm
+{
+    display: flex;
+    justify-content: center;
+    gap: 0.5vw;
+    margin: 1% 0 0.50% 0;
+}
+
+.emailField, .emailButton, .contacts, .textarea, .feedButton
+{
+    border: none;
+    border-radius: 3px;
+}
+
+.emailField
+{
+    height: 2.3rem;
+    font-size: 1rem;
+}
+
+.emailButton
+{
+    height: 2.4rem;
+    font-size: 0.9rem;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(2, 60, 46);
+    background: rgb(145, 244, 201);
+}
+
+.emailButton:hover
+{
+    color: rgb(5, 104, 81);
+    background: rgb(95, 207, 159);
+}
+
+.contacts
+{
+	height: 40px;
+    width: 170px;
+    font-size: 1rem;
+}
+
+.feedform
+{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 0.5vw;
+}
+
+.feedflexer1, .feedflexer2
+{
+	display: flex;
+	flex-direction: row;
+	gap: 0.5vh;
+}
+
+.textarea
+{
+	height: 150px;
+	width: 350px;
+	resize: none;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1rem;
+}
+
+.feedButton
+{
+    height: 2.4rem;
+    font-size: 0.9rem;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(2, 60, 46);
+    background: rgb(145, 244, 201);
+    margin: 0.30% 0 0.30% 0;
+}
+
+.feedButton:hover
+{
+    color: rgb(5, 104, 81);
+    background: rgb(95, 207, 159);
+}
+
+.feedLabel
+{
+    font-weight: bold;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(239, 251, 241);
+    margin: 0.30% 0 0.60% 0;
+}
+
+.histHeader
+{
+    font-weight: bold;
+    font-size: 110%;
+    margin: 0 0 0.30% 0;
+}
+
+#htea
+{
+	width: 20vw;
+    float: right;
+    margin: 10px;
+}
+
+.textblock
+{
+    font-size: 1.20rem;
+}
+
+.pointy:hover
+{
+    cursor: pointer;
+}
